@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://blassa.io/pricing
+docs: https://blassa.readme.io/
+summary:
+  types:
+  - apiKey
+  notes: >-
+    Blassa is authenticated with API keys. Every plan includes API access with a
+    key; the Enterprise plan explicitly grants "multiple API keys". The exact key
+    transport (header name / query parameter) is documented in the Blassa ReadMe
+    developer portal but was not captured verbatim here (the portal is bot/rate
+    protected). No OpenAPI securitySchemes were available to derive from.
+schemes:
+- name: apiKey
+  type: apiKey
+  description: >-
+    API key issued per account/plan from the Blassa business dashboard
+    (https://business.blassa.io). Presented on each API request. Transport
+    (header vs. query) per the Blassa API reference.
+  official: true
+  sources:
+  - https://blassa.io/pricing
+  - https://blassa.readme.io/
