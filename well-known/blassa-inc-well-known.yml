@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Blassa hosts in
+  apis.yml. blassa.io is a client-rendered SPA; only real, correctly-typed
+  payloads would be saved verbatim. No /.well-known/ document was served. A real
+  /llms.txt WAS found and is saved verbatim at llms/blassa-inc-llms.txt.
+hosts:
+  - host: https://blassa.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+        type: text/plain
+        file: ../llms/blassa-inc-llms.txt
+  - host: https://business.blassa.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404

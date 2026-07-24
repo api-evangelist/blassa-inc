@@ -1,0 +1,18 @@
+# Blassa
+
+> AI-powered location intelligence and geocoding built for the Middle East and Africa.
+
+Blassa provides geocoding, address validation, and location APIs designed for the informal addressing systems common across MEA — helping logistics, e-commerce, and delivery companies reduce failed deliveries.
+
+## Pages
+
+- [Home](/): Product overview, coverage, and how Blassa's geocoding works in MEA.
+- [Pricing](/pricing): Plans and pricing tiers for the Blassa API.
+- [Blog](/blog): Articles on geocoding, last-mile delivery, and MEA location intelligence.
+- [Privacy Policy](/privacy): How Blassa handles data and user privacy.
+
+## Blog
+
+- [Up to 40% of deliveries fail in MEA — here's why](/blog/delivery-failure-mea): The root causes of failed deliveries across the Middle East and Africa.
+- [Why informal addressing systems in MENA break standard geocoders](/blog/informal-addressing-mena-geocoders): Why Western-style geocoders fail on real MENA addresses.
+- [How to reduce failed deliveries in Saudi Arabia: 4 steps](/blog/reduce-failed-deliveries-saudi-arabia): A data-layer playbook for cutting KSA delivery failures.

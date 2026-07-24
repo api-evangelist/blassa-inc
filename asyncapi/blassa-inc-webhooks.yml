@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://blassa.io/pricing
+spec_type: Webhooks
+description: >-
+  Blassa advertises webhook support as a documented product capability: the Pro
+  plan explicitly lists "webhook support" and the Enterprise plan supports custom
+  integrations. Blassa publishes no AsyncAPI document, and the concrete event
+  catalog (event types, payload schemas, signing) lives in the Blassa ReadMe
+  developer portal and was not captured verbatim (portal is bot/rate protected).
+  This artifact records the presence of a real webhook surface; it is not a
+  fabricated event schema.
+webhooks:
+  advertised: true
+  evidence:
+    - source: https://blassa.io/pricing
+      detail: Pro plan feature list includes "webhook support"
+  events: []   # not captured verbatim — see https://blassa.readme.io/
+  asyncapi_published: false

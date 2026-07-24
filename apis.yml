@@ -1,7 +1,31 @@
 aid: blassa-inc
 name: Blassa Inc.
-description: Blassa Inc. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blassa is an AI-powered location intelligence and geocoding platform built for
+  the informal addressing systems common across the Middle East and Africa (MEA),
+  where up to 40% of deliveries fail on the first attempt. The Blassa API turns
+  ambiguous location descriptions and photos into precise coordinates and
+  structured, verified addresses, offering forward and reverse geocoding,
+  multi-language address autocomplete (Arabic, French, and local languages),
+  address validation with deliverability scoring, and photo-to-location
+  conversion. It targets logistics, e-commerce, and last-mile delivery companies
+  looking to cut failed deliveries and improve checkout conversion. Founded in
+  2021 and backed by 500 Global and the Sanabil Accelerator, Blassa exposes its
+  capabilities through a credit-metered REST API with free, Pro, and Enterprise
+  plans, an API-key auth model, webhook support, and a hosted developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/gpt-engineer-file-uploads/7t37Ke0rqPPrjfKJWKCzuL6xo1r2/social-images/social-1770386874845-Logo.png
 url: https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Location Intelligence
+- Geocoding
+- Address Verification
+- Maps
+- Logistics
+- Last-Mile Delivery
+- E-commerce
+- Middle East
+- Africa
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blassa-inc-domain-security.yml
 - type: Website
   url: https://blassa.io
+- type: DeveloperPortal
+  url: https://blassa.readme.io/
+- type: Documentation
+  url: https://blassa.readme.io/
+- type: APIReference
+  url: https://blassa.readme.io/reference/about-blassa
+- type: SignUp
+  url: https://business.blassa.io
+- type: Pricing
+  url: https://blassa.io/pricing
+- type: Blog
+  url: https://blassa.io/blog
+- type: PrivacyPolicy
+  url: https://blassa.io/privacy
+- type: Authentication
+  url: authentication/blassa-inc-authentication.yml
+- type: Webhooks
+  url: asyncapi/blassa-inc-webhooks.yml
+- type: WellKnown
+  url: well-known/blassa-inc-well-known.yml
+- type: LLMsTxt
+  url: llms/blassa-inc-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
