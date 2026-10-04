@@ -1,5 +1,5 @@
 aid: blassa-inc
-name: Blassa Inc.
+name: Blassa
 description: >-
   Blassa is an AI-powered location intelligence and geocoding platform built for
   the informal addressing systems common across the Middle East and Africa (MEA),
@@ -111,3 +111,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Blassa Inc.
